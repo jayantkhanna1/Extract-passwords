@@ -7,7 +7,7 @@ from Cryptodome.Cipher import AES
 import shutil
 from datetime import timezone, datetime, timedelta
 
-class Brave:
+class Chrome:
     def __init__(self,path, file_path):
         found,path = self.test_for_brave(path, file_path)
         if(found):
